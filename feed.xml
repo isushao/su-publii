@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>𝓼𝓾.𝓼𝓱𝓪𝓸.com</title>
+    <link href="https://isushao.github.io/su-publii/feed.xml" rel="self" />
+    <link href="https://isushao.github.io/su-publii" />
+    <updated>2022-08-04T10:22:32+08:00</updated>
+    <author>
+        <name>苏</name>
+    </author>
+    <id>https://isushao.github.io/su-publii</id>
+
+    <entry>
+        <title>测试</title>
+        <author>
+            <name>苏</name>
+        </author>
+        <link href="https://isushao.github.io/su-publii/ce-shi.html"/>
+        <id>https://isushao.github.io/su-publii/ce-shi.html</id>
+
+        <updated>2022-08-04T10:22:32+08:00</updated>
+            <summary>
+                <![CDATA[
+                    测试
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>测试</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

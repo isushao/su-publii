@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://isushao.github.io/su-publii/sitemap.xml
