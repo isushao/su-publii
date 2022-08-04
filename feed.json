@@ -10,18 +10,32 @@
     },
     "items": [
         {
+            "id": "https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html",
+            "url": "https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html",
+            "title": "Mongo学习心路",
+            "summary": "<h1>什么是MongoDB</h1>\n",
+            "content_html": "<h1>什么是MongoDB</h1>\n\n<h2>MongoDB简介</h2>\n<p>MongoDB是一个开源的，跨平台的分布式文档数据库。MongoDB由<a href=\"https://www.mongodb.com/company\" target=\"_blank\" rel=\"noreferrer noopener\" _istranslated=\"1\">MongoDB Inc.</a>开发。并被归类为NoSQL数据库。</p>\n<h3>1）易于使用</h3>\n<p>MongoDB是一个面向文档的数据库。它使用文档的概念来存储数据，这比关系数据库管理系统（RDBMS）中的行概念更灵活。</p>\n<p>文档允许您用单个记录表示复杂的层次结构关系。</p>\n<p>MongoDB不需要预定义的架构，允许您更快地在文档中添加或删除字段。</p>\n<h3>2） 设计用于横向扩展</h3>\n<p>当数据库增长时，您将面临如何扩展它的挑战。有两种常见的方法：</p>\n<ul>\n<li>向上扩展 – 将当前服务器升级到具有更多资源（CPU，RAM等）的更大服务器。但是，获得更大的服务器意味着增加更多的成本。</li>\n<li>横向扩展 – 购买其他服务器并将其添加到群集。这比纵向扩展更便宜，更具可扩展性。缺点是管理多台服务器比管理大型服务器需要更多的精力。</li>\n</ul>\n<p>MongoDB旨在向外扩展。</p>\n<p>MongoDB允许您将数据拆分到许多服务器之间。它还会自动管理群集中的负载平衡、重新分发数据以及将更新路由到正确的服务器。</p>\n<p>下图说明了MongoDB如何在多个服务器上使用分片进行横向扩展：</p>\n<figure class=\"wp-block-image size-large\"><figure class=\"wp-image-111\"><img loading=\"lazy\"  src=\"https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out.png\" data-is-external-image=\"true\"  sizes=\"(max-width: 682px) 100vw, 682px\" srcset=\"https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out.png 682w, https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out-300x152.png 300w\" alt=\"\" width=\"682\" height=\"346\"></figure></figure>\n<h3>3）丰富的功能</h3>\n<p>像任何数据库系统一样，MongoDB允许您插入，更新和删除以及选择数据。此外，它还支持其他功能，包括：</p>\n<ul>\n<li>索引</li>\n<li>集合体</li>\n<li>指定集合和索引类型</li>\n<li>文件存储</li>\n</ul>\n<h3>4） 高性能</h3>\n<p>MongoDB旨在从架构和功能的角度保持高性能。</p>\n<p>MongoDB的理念是创建一个可扩展，灵活和快速的全功能数据库。</p>",
+            "author": {
+                "name": "苏少鹏"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-08-04T11:19:47+08:00",
+            "date_modified": "2022-08-04T11:30:50+08:00"
+        },
+        {
             "id": "https://isushao.github.io/su-publii/ce-shi.html",
             "url": "https://isushao.github.io/su-publii/ce-shi.html",
-            "title": "测试",
-            "summary": "测试",
-            "content_html": "<p>测试</p>",
+            "title": "技术沉淀",
+            "summary": "<blockquote>\n<p>且夫水之积也不厚，则其负大舟也无力。</p>\n",
+            "content_html": "<blockquote>\n<p>且夫水之积也不厚，则其负大舟也无力。</p>\n\n<p>覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。</p>\n<p class=\"align-right\">庄子  -《逍遥游》</p>\n</blockquote>\n<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个技术人而言，没有什么比基础更重要的了。</p>\n<p> </p>",
             "author": {
                 "name": "苏少鹏"
             },
             "tags": [
             ],
             "date_published": "2022-08-04T10:22:32+08:00",
-            "date_modified": "2022-08-04T10:22:32+08:00"
+            "date_modified": "2022-08-04T11:29:28+08:00"
         }
     ]
 }
