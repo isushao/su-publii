@@ -3,7 +3,7 @@
     <title>𝓼𝓾.𝓼𝓱𝓪𝓸.blog</title>
     <link href="https://isushao.github.io/su-publii/feed.xml" rel="self" />
     <link href="https://isushao.github.io/su-publii" />
-    <updated>2022-08-09T15:53:38+08:00</updated>
+    <updated>2022-08-09T16:02:02+08:00</updated>
     <author>
         <name>Roc Su</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html"/>
         <id>https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html</id>
 
-        <updated>2022-08-09T15:53:38+08:00</updated>
+        <updated>2022-08-09T16:02:02+08:00</updated>
             <summary>
                 <![CDATA[
                     <h3></h3>
@@ -111,11 +111,11 @@
 <td><strong>RDBMS</strong></td>
 </tr>
 <tr>
-<td>文件</td>
+<td>文档</td>
 <td>行</td>
 </tr>
 <tr>
-<td>收集</td>
+<td>集合</td>
 <td>表</td>
 </tr>
 </tbody>
@@ -208,40 +208,6 @@
 <pre>db.products.findOne({_id: 5}, {name: 1, id:0})</pre>
 <p>返回：</p>
 <pre>{"name" : "SmartPhone" }</pre>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>技术沉淀</title>
-        <author>
-            <name>Roc Su</name>
-        </author>
-        <link href="https://isushao.github.io/su-publii/ce-shi.html"/>
-        <id>https://isushao.github.io/su-publii/ce-shi.html</id>
-
-        <updated>2022-08-05T09:53:26+08:00</updated>
-            <summary>
-                <![CDATA[
-                    <blockquote>
-<p>且夫水之积也不厚，则其负大舟也无力。</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <blockquote>
-<p>且夫水之积也不厚，则其负大舟也无力。</p>
-
-<p>覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。</p>
-<p class="align-right">庄子  -《逍遥游》</p>
-</blockquote>
-<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个技术人而言，没有什么比基础更重要的了。基础包含很多东西，我们先讨论以下几点。</p>
-<h1>数据结构</h1>
-<p> </p>
-<h1>算法</h1>
-<p> </p>
-<h1>设计模式</h1>
-<p> </p>
             ]]>
         </content>
     </entry>
