@@ -3,36 +3,42 @@
     <title>𝓼𝓾.𝓼𝓱𝓪𝓸.blog</title>
     <link href="https://isushao.github.io/su-publii/feed.xml" rel="self" />
     <link href="https://isushao.github.io/su-publii" />
-    <updated>2022-08-04T11:56:48+08:00</updated>
+    <updated>2022-08-09T15:53:38+08:00</updated>
     <author>
-        <name>苏少鹏</name>
+        <name>Roc Su</name>
     </author>
     <id>https://isushao.github.io/su-publii</id>
 
     <entry>
         <title>Mongo学习路程</title>
         <author>
-            <name>苏少鹏</name>
+            <name>Roc Su</name>
         </author>
         <link href="https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html"/>
         <id>https://isushao.github.io/su-publii/mongoxue-xi-xin-lu.html</id>
 
-        <updated>2022-08-04T11:56:48+08:00</updated>
+        <updated>2022-08-09T15:53:38+08:00</updated>
             <summary>
                 <![CDATA[
-                    <p>MongoDB是一个开源的，跨平台的分布式文档数据库。MongoDB由<a href="https://www.mongodb.com/company" target="_blank" rel="noreferrer noopener" _istranslated="1">MongoDB Inc.</a>开发。并被归类为NoSQL数据库。</p>
+                    <h3></h3>
+<h1></h1>
+<p>MongoDB是一个开源的，跨平台的分布式文档数据库。MongoDB由<a href="https://www.mongodb.com/company" target="_blank" rel="noreferrer noopener" _istranslated="1">MongoDB Inc.</a>开发。并被归类为NoSQL数据库。</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>MongoDB是一个开源的，跨平台的分布式文档数据库。MongoDB由<a href="https://www.mongodb.com/company" target="_blank" rel="noreferrer noopener" _istranslated="1">MongoDB Inc.</a>开发。并被归类为NoSQL数据库。</p>
+                <h3></h3>
+<h1></h1>
+<p>MongoDB是一个开源的，跨平台的分布式文档数据库。MongoDB由<a href="https://www.mongodb.com/company" target="_blank" rel="noreferrer noopener" _istranslated="1">MongoDB Inc.</a>开发。并被归类为NoSQL数据库。</p>
 
-<h3>1）易于使用</h3>
+<h1></h1>
+<h1>MongoDB简介</h1>
+<h2>1）易于使用</h2>
 <p>MongoDB是一个面向文档的数据库。它使用文档的概念来存储数据，这比关系数据库管理系统（RDBMS）中的行概念更灵活。</p>
 <p>文档允许您用单个记录表示复杂的层次结构关系。</p>
 <p>MongoDB不需要预定义的架构，允许您更快地在文档中添加或删除字段。</p>
-<h3>2） 设计用于横向扩展</h3>
+<h2>2） 设计用于横向扩展</h2>
 <p>当数据库增长时，您将面临如何扩展它的挑战。有两种常见的方法：</p>
 <ul>
 <li>向上扩展 – 将当前服务器升级到具有更多资源（CPU，RAM等）的更大服务器。但是，获得更大的服务器意味着增加更多的成本。</li>
@@ -42,7 +48,7 @@
 <p>MongoDB允许您将数据拆分到许多服务器之间。它还会自动管理群集中的负载平衡、重新分发数据以及将更新路由到正确的服务器。</p>
 <p>下图说明了MongoDB如何在多个服务器上使用分片进行横向扩展：</p>
 <figure class="wp-block-image size-large"><figure class="wp-image-111"><img loading="lazy"  src="https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out.png" data-is-external-image="true"  sizes="(max-width: 682px) 100vw, 682px" srcset="https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out.png 682w, https://www.mongodbtutorial.org/wp-content/uploads/2020/08/what-is-mongodb-scale-out-300x152.png 300w" alt="" width="682" height="346"></figure></figure>
-<h3>3）丰富的功能</h3>
+<h2>3）丰富的功能</h2>
 <p>像任何数据库系统一样，MongoDB允许您插入，更新和删除以及选择数据。此外，它还支持其他功能，包括：</p>
 <ul>
 <li>索引</li>
@@ -50,22 +56,22 @@
 <li>指定集合和索引类型</li>
 <li>文件存储</li>
 </ul>
-<h3>4） 高性能</h3>
+<h2>4） 高性能</h2>
 <p>MongoDB旨在从架构和功能的角度保持高性能。</p>
 <p>MongoDB的理念是创建一个可扩展，灵活和快速的全功能数据库。</p>
 <h1>MongoDB vs. MySQL</h1>
 <p>MySQL使用结构化查询语言来访问存储的数据。在这种格式中，架构用于创建数据库结构，利用表作为标准化数据类型的一种方式，以便值可搜索并可以正确查询。MySQL是一个成熟的解决方案，可用于各种情况，包括网站数据库，应用程序和商业产品管理。</p>
 <p>由于其刚性，当数据完整性和隔离至关重要时，例如在管理事务数据时，MySQL比MongoDB更可取。但是MongoDB限制较少的格式和更高的性能使其成为更好的选择，特别是当可用性和速度是主要问题时。</p>
-<h1>MongoDB vs Redis</h1>
+<h1>MongoDB vs. Redis</h1>
 <p>Redis是一个内存数据库存储，MongoDB被称为磁盘上的文档存储。尽管这两种解决方案都是为不同的目的而构建的，但它们通常一起使用以最大限度地提高NoSQL数据库的速度和效率。由于其缓存能力，Redis可以非常快速地找到所需的数据，作为摄取缓冲区，使MongoDB更加高效，并能够近乎实时地管理更大频率的文档更新。凭借MongoDB存储大量数据的能力以及Redis处理数据的能力，该配对为各种用例提供了强大的数据库管理解决方案。</p>
 <p> </p>
 <h1>MongoDB数据格式</h1>
 <p>在MongoDB中，通常使用到JSON和BSON数据格式。</p>
-<h3 id="json">JSON</h3>
+<h2 id="json">JSON</h2>
 <p>JSON 代表 JavaScript Object Notation。JSON 语法基于 JavaScript ECMA-262 第 3 版的子集。</p>
 <p>JSON 文档是结构化格式的字段和值的集合。例如：</p>
 <p><code>{<br>   "first_name": "John",<br>   "last_name": "Doe",<br>   "age": 22,<br>   "skills": ["Programming","Databases", "API"]<br>}</code></p>
-<h3 id="bson">BSON</h3>
+<h2 id="bson">BSON</h2>
 <p>BSON代表二进制JSON，它是类似JSON的文档的二进制编码序列化。</p>
 <h2 id="documents">文档</h2>
 <p>MongoDB将数据记录存储为BSON文档，这些文档简称为文档。</p>
@@ -147,19 +153,73 @@
 <li>MongoDB将文档存储在集合中，将集合存储在数据库中。</li>
 <li>命名空间是数据库名称和集合名称 （） 的串联，用于完全限定集合。<code>database_name.collection_name</code></li>
 </ul>
-<p> </p>
+<h1>实践</h1>
+<h2>安装</h2>
+<ol>
+<li>按照官方给出的不同环境的安装说明，进行选择安装。下载地址：<a href="https://www.mongodb.com/try/download/community" title="mongodb下载" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/community</a></li>
+<li>安装mongoshell。下载地址：<a href="https://docs.mongodb.com/mongodb-shell" title="mongodb-shell 下载" target="_blank" rel="noopener noreferrer">https://docs.mongodb.com/mongodb-shell</a></li>
+<li>设置auth</li>
+</ol>
+<p class="md-end-block md-p"><span class="md-plain">创建用户</span></p>
+<pre class="md-fences md-end-block ty-contain-cm modeLoaded" lang="bash" spellcheck="false"><span role="presentation">xxx\root&gt; mongsh</span><br><span role="presentation">test&gt; use admin</span><br><span role="presentation">amdin&gt; db.createUser(</span><br><span role="presentation">{</span><br><span role="presentation">user: <span class="cm-string">"admin"</span>,</span><br><span role="presentation">pwd: passwordPrompt(),</span><br><span role="presentation">roles: [ { role: <span class="cm-string">"userAdminAnyDatabase"</span>, db: <span class="cm-string">"admin"</span> } ]</span><br><span role="presentation">}</span><br><span role="presentation">)</span></pre>
+<p><span class="md-plain">修改mongodb配置如下：</span></p>
+<pre class="md-fences md-end-block ty-contain-cm modeLoaded" lang="yaml" spellcheck="false"><span role="presentation"><span class="cm-atom">security</span><span class="cm-meta">:</span></span><br><span role="presentation"><span class="cm-atom">  authorization</span><span class="cm-meta">: </span>enabled</span></pre>
+<p class="md-end-block md-p"><span class="md-plain">再次访问</span></p>
+<pre class="md-fences md-end-block ty-contain-cm modeLoaded" lang="bash" spellcheck="false"><span role="presentation">xxx\root&gt; mongsh</span><br><span role="presentation">test&gt; use admin</span><br><span role="presentation">admin&gt; db.auth(<span class="cm-string">"admin"</span>,passwordPrompt())</span></pre>
+<h2>CRUD</h2>
+<h3>insertOne</h3>
+<pre>db.collection.insertOne(<br>   &lt;document&gt;,<br>   { writeConcern: &lt;document&gt;}<br>)</pre>
+<p>参数：</p>
+<ul>
+<li><code>document</code>是要插入的文档，必须。</li>
+<li><code>writeConcern</code>是一个可选参数，描述MongoDB写关注点，用于将操作插入到独立的 MongoDB 服务器或共享集群。</li>
+</ul>
+<p>示例：</p>
+<pre>db.books.insertOne({ <br>    title: 'MongoDB insertOne',<br>    isbn: '0-7617-6154-3'<br>});</pre>
+<p>返回：</p>
+<pre>{<br>        "acknowledged" : true,<br>        "insertedId" : ObjectId("5f31cf00902f22de3464ddc4")<br>}</pre>
+<ul>
+<li><code>acknowledged</code>是一个布尔值。如果执行插入时带有写入关注点，则将其设置为 true;如果禁用了写入关注点，则将其设置为 false。</li>
+<li><code>insertedId</code>存储插入文档的字段值。<code>_id</code></li>
+</ul>
+<h3>insertMany</h3>
+<pre>db.collection.insertMany(<br>   [document1, document2, ...],<br>   {<br>      writeConcern: &lt;document&gt;,<br>      ordered: &lt;boolean&gt;<br>   }<br>)</pre>
+<p>第一个参数是要插入到集合中的文档数组。</p>
+<p>第二个参数包含两个可选字段-值对的文档：</p>
+<pre>{<br>   writeConcern: &lt;document&gt;,<br>   ordered: &lt;boolean&gt;<br>}</pre>
+<p>同上writeConcern指写关注点，省略后会插入默认的写入关注点。</p>
+<p>orderd用于确认 MongoDB 是否应该执行有序或无序插入。</p>
+<p>当<code>ordered</code>设置为 时<code>true</code>，该<code>insertMany()</code>方法按顺序插入文档。这也是默认选项。</p>
+<p>如果<code>ordered</code>设置为<code>false</code>，MongoDB 可能会在插入之前重新排序文档以提高性能。</p>
+<p>示例：</p>
+<pre>db.products.insertMany([<br>    { "_id" : 1, "name" : "xPhone", "price" : 799, "releaseDate": ISODate("2011-05-14"), "spec" : { "ram" : 4, "screen" : 6.5, "cpu" : 2.66 },"color":["white","black"],"storage":[64,128,256]},<br>    { "_id" : 2, "name" : "xTablet", "price" : 899, "releaseDate": ISODate("2011-09-01") , "spec" : { "ram" : 16, "screen" : 9.5, "cpu" : 3.66 },"color":["white","black","purple"],"storage":[128,256,512]},<br>    { "_id" : 3, "name" : "SmartTablet", "price" : 899, "releaseDate": ISODate("2015-01-14"), "spec" : { "ram" : 12, "screen" : 9.7, "cpu" : 3.66 },"color":["blue"],"storage":[16,64,128]},<br>    { "_id" : 4, "name" : "SmartPad", "price" : 699, "releaseDate": ISODate("2020-05-14"),"spec" : { "ram" : 8, "screen" : 9.7, "cpu" : 1.66 },"color":["white","orange","gold","gray"],"storage":[128,256,1024]},<br>    { "_id" : 5, "name" : "SmartPhone", "price" : 599,"releaseDate": ISODate("2022-09-14"), "spec" : { "ram" : 4, "screen" : 5.7, "cpu" : 1.66 },"color":["white","orange","gold","gray"],"storage":[128,256]}<br> ])</pre>
+<h3>findOne</h3>
+<pre>db.collection.findOne(query, projection)</pre>
+<p>两个可选参数：<code>query</code>和<code>projection</code>.</p>
+<ul>
+<li><code>query</code>是一个指定选择标准的文档。</li>
+<li><code>projection</code>是一个文档，它指定要返回的匹配文档中的字段。</li>
+</ul>
+<p>示例1：默认查询第一条</p>
+<pre>db.products.findOne()</pre>
+<p>返回：</p>
+<pre>{<br>  _id: 1,<br>  name: 'xPhone',<br>  price: 799,<br>  releaseDate: ISODate("2011-05-14T00:00:00.000Z"),<br>  spec: { ram: 4, screen: 6.5, cpu: 2.66 },<br>  color: [ 'white', 'black' ],<br>  storage: [ 64, 128, 256 ]<br>}</pre>
+<p>示例2：选择一些字段查询</p>
+<pre>db.products.findOne({_id: 5}, {name: 1, id:0})</pre>
+<p>返回：</p>
+<pre>{"name" : "SmartPhone" }</pre>
             ]]>
         </content>
     </entry>
     <entry>
         <title>技术沉淀</title>
         <author>
-            <name>苏少鹏</name>
+            <name>Roc Su</name>
         </author>
         <link href="https://isushao.github.io/su-publii/ce-shi.html"/>
         <id>https://isushao.github.io/su-publii/ce-shi.html</id>
 
-        <updated>2022-08-04T11:29:28+08:00</updated>
+        <updated>2022-08-05T09:53:26+08:00</updated>
             <summary>
                 <![CDATA[
                     <blockquote>
@@ -175,7 +235,12 @@
 <p>覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。</p>
 <p class="align-right">庄子  -《逍遥游》</p>
 </blockquote>
-<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个技术人而言，没有什么比基础更重要的了。</p>
+<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个技术人而言，没有什么比基础更重要的了。基础包含很多东西，我们先讨论以下几点。</p>
+<h1>数据结构</h1>
+<p> </p>
+<h1>算法</h1>
+<p> </p>
+<h1>设计模式</h1>
 <p> </p>
             ]]>
         </content>
