@@ -3,7 +3,7 @@
     <title>𝓼𝓾.𝓼𝓱𝓪𝓸.blog</title>
     <link href="https://isushao.github.io/su-publii/feed.xml" rel="self" />
     <link href="https://isushao.github.io/su-publii" />
-    <updated>2022-08-13T10:18:58+08:00</updated>
+    <updated>2022-08-13T20:08:12+08:00</updated>
     <author>
         <name>Roc Su</name>
     </author>
@@ -219,7 +219,7 @@
         <link href="https://isushao.github.io/su-publii/ce-shi.html"/>
         <id>https://isushao.github.io/su-publii/ce-shi.html</id>
 
-        <updated>2022-08-13T10:18:58+08:00</updated>
+        <updated>2022-08-13T20:08:12+08:00</updated>
             <summary>
                 <![CDATA[
                     <blockquote>
@@ -235,9 +235,10 @@
 <p>覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天，而莫之夭阏者，而后乃今将图南。</p>
 <p class="align-right">庄子  -《逍遥游》</p>
 </blockquote>
-<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个应用来说，搭建好基础服务是至关重要的。</p>
-<h3 class="md-end-block md-heading"><span class="md-plain md-expand">安全</span></h3>
-<p class="md-end-block md-p"><span class="md-plain">建设易于配置的访问控制机制。</span></p>
+<p>何以积水如洪，载得大舟；积风若飓，负得大翼。对于一个应用来说，搭建好基础服务是至关重要的。本文通过以下几个方面述说一个Web应用的基础能力。</p>
+<h2 class="md-end-block md-heading"><span class="md-plain md-expand">安全</span></h2>
+<p> </p>
+<h3 class="md-end-block md-p"><span class="md-plain">建设易于配置的访问控制机制</span></h3>
 <ul class="ul-list" data-mark="-">
 <li class="md-list-item">
 <p class="md-end-block md-p"><span class="md-plain">与数据模型集成。</span></p>
@@ -353,21 +354,22 @@
 <h4 class="md-end-block md-heading"><span class="md-plain">通知</span></h4>
 <p class="md-end-block md-p"><span class="md-plain">信息类通知</span></p>
 <p class="md-end-block md-p"><span class="md-plain">系统事件通知</span></p>
-<h4 class="md-end-block md-heading"><span class="md-plain">OCR</span></h4>
-<p class="md-end-block md-p"><span class="md-plain">图像文字识别</span></p>
-<p class="md-end-block md-p"><span class="md-meta-i-c  md-link"><a href="https://github.com/clovaai/donut"><span class="md-plain">Donut</span></a></span></p>
 <h4 class="md-end-block md-heading"><span class="md-plain">文件管理</span></h4>
-<p class="md-end-block md-p"><span class="md-plain">对象存储，minio starter组件</span></p>
+<p class="md-end-block md-p"><span class="md-plain">对象存储</span></p>
 <h4 class="md-end-block md-heading"><span class="md-plain">日志</span></h4>
 <p class="md-end-block md-p"><span class="md-plain">数据库实体日志</span></p>
 <p class="md-end-block md-p"><span class="md-plain">系统事件日志</span></p>
-<h4 class="md-end-block md-heading"><span class="md-plain">缓存（NOSQL)</span></h4>
-<p class="md-end-block md-p"><span class="md-plain">计算成本比较大的数据使用缓存。</span></p>
+<h4 class="md-end-block md-heading"><span class="md-plain">NOSQL</span></h4>
 <h5 class="md-end-block md-heading"><span class="md-plain">Redis</span></h5>
+<p>Redis是一个内存数据库存储。</p>
 <h5 class="md-end-block md-heading"><span class="md-plain">MongoDB</span></h5>
-<h4 class="md-end-block md-heading"><span class="md-plain">限流+熔断</span></h4>
-<p class="md-end-block md-p"><span class="md-plain">访问超过服务负载时限流熔断，不至于服务崩溃，友好提示。</span></p>
-<p class="md-end-block md-p"> </p>
+<p>MongoDB被称为磁盘上的文档存储。</p>
+<h4 class="md-end-block md-heading"><span class="md-plain">限流</span></h4>
+<p>限流的常见算法有以下三种：<br><br>时间窗口算法<br>漏桶算法<br>令牌算法</p>
+<h3 class="md-end-block md-p">接口幂等</h3>
+<p>接口幂等性就是用户对于同一个接口发起的一次请求或者多次请求的结果是一致的，<br>不会因为多次请求而产生不同的结果。</p>
+<h4>可重入分布式锁</h4>
+<pre>RLock lock = redisson.getLock("唯一请求ID");<br><br>// 尝试加锁，最多等待100秒，上锁以后10秒自动解锁<br>boolean res = lock.tryLock(100, 10, TimeUnit.SECONDS);<br>if (res) {<br>   try {<br>     ...<br>   } finally {<br>       lock.unlock();<br>   }<br>}</pre>
 <h2 class="md-end-block md-heading"><span class="md-plain">拓展</span></h2>
 <h3 class="md-end-block md-heading"><span class="md-plain">分布式数据（高并发）</span></h3>
 <h4 class="md-end-block md-heading"><span class="md-plain">可扩展性</span></h4>
